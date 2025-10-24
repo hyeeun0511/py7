@@ -39,13 +39,20 @@ print(now.second,"초")
 
 # 입력한 주민번호의 월을 파악해서 현재날짜와 같은 월이면
 # 이벤트 대상입니다., 이벤트 대상이 아닙니다. 출력하시오.
-jumin = input("주민번호를 입력하세요.")
-if int(jumin[2:4]) == (now.month):
-    print("이벤트 대상입니다.")
-else:
-    print("이벤트 대상이 아닙니다.")
+##문제
+# jumin = input("주민번호를 입력하세요.")
+# if int(jumin[2:4]) == (now.month):
+#     print("이벤트 대상입니다.")
+# else:
+#     print("이벤트 대상이 아닙니다.")
     
 
+
+str1 = "abcdefg"
+# [시작번호:끝번호:스탭]
+print(str1[1:6:2])  # bdf
+print(str1[:5])     # abcde
+print(str1[5:2:-1]) # fed
 
 
 
