@@ -36,7 +36,7 @@ else:
     print("1~8까지 숫자가 아님.")
     
 # 2개 합침
-if(len(jumin)==14 and (  1 <= int(jumin[7]) <= 8    )):
+if(len(jumin)==14 and (  1 <= int(jumin[7]) <= 8    )):     # 괄호 신경쓰기
     print("주민번호 제대로 입력")
 else:
     print("주민번호 잘못입력")
