@@ -8,11 +8,11 @@
 stus = []
 name = input("이름을 입력하세요.")
 stus.append(name)
-kor = input(input("국어점수를 입력하세요."))
+kor = int(input("국어점수를 입력하세요."))
 stus.append(kor)
-eng = input(input("영어점수를 입력하세요."))
+eng = int(input("영어점수를 입력하세요."))
 stus.append(eng)
-math = input(input("수학점수를 입력하세요."))
+math = int(input("수학점수를 입력하세요."))
 stus.append(math)
 total = kor+eng+math
 stus.append(total)
