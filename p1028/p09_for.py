@@ -34,4 +34,4 @@ for i in range(1,11):
     print(i,result)
     if result>100:
         break
-print(f"{i}번째 : {result}")
+print(f"{i-1}번째 : {result/i}")  # 그 전 값 출력
