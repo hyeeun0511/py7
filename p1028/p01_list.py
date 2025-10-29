@@ -39,4 +39,3 @@ stus = ['홍길동',100,90,80,270,90.0]
 print("이름 :",stus[0],"국어 :",stus[1])
 print("이름 :",stus[0],"국어 :",stus[1],"영어 :",stus[2],"수학 :",stus[3],"합계 :",stus[4],"평균 :",stus[5])
 print("이름 : %s, 국어 : %d, 영어 : %d, 수학 : %d, 합계 : %d, 평균 : %.2f" % (stus[0],stus[1],stus[2],stus[3],stus[4],stus[5]))
-

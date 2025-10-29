@@ -12,9 +12,6 @@ for i in range(len(fruits)):
 
 
 
-
-
-
 # 501 ~ 1000까지 홀수의 합을 출력하시오.
 # sum = 0
 # for i in range(501,1001):
