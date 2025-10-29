@@ -16,10 +16,10 @@ for i in range(6):
     my_list.append(num)
 my_list.sort()
 
-# 3. 맞춘 번호 확인
-for i in lotto:
-    for j in my_list:
-        if i == j:
+# 3. 당첨 번호 확인
+for i in lotto: # 23,1,9,45,20,15 # 정답 번호
+    for j in my_list: # 내가 작성한 번호
+        if i == j:  # 정답번호(i)와 작성한 번호(j)비교
             count = count + 1
             c_list.append(i)
             break # 가장가까운 for만 중지 - for i in lotto:로 감
