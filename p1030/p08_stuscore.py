@@ -69,15 +69,16 @@ while True:
         score = int(input("수정할 점수를 입력하세요.>> "))   # 위에있는 stu_list[choice-1][subject+1] <- 수정할 점수의 위치임
         stu_list[choice-1][subject+1] = score
         #합계수정
-        stu_list[choice-1][5] =\
-            stu_list[choice-1][2]+stu_list[choice-1][2]+stu_list[choice-1]
+        stu_list[choice-1][5] = \
+            stu_list[choice-1][2]+stu_list[choice-1][3]+stu_list[choice-1][4]      # 국어성적 + 영어성적 + 수학성적
         # 평균수정
         stu_list[choice-1][6] = stu_list[choice-1][5]/3   # 3과목
         
         
         print("{}점수 {}점으로 수정이 완료되었습니다.".\
-            format(titles[subject+1],stu_list[choice-1][subject+1]))
-        print("-"*50)
+            format(titles[subject+1],score))
+        print(stu_list)
+        print()
         
         
         
