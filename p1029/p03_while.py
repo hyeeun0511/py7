@@ -15,28 +15,29 @@ while True:                      # 무제한
         # 학생성적입력
         print("[ 학생성적입력 ]")
         name = input("이름을 입력하세요.")
-    kor = int(input("국어 성적을 입력하세요."))
-    eng = int(input("영어 성적을 입력하세요."))
-    math = int(input("수학 성적을 입력하세요."))
-    total = kor+eng+math
-    avg = total/3
-    stu_list.append(name)
-    stu_list.append(n1)
-    stu_list.append(n2)
-    stu_list.append(n3)
-    stu_list.append(total)
-    stu_list.append(avg)
-    stu_list.append[name,n1,n2,n3,total,avg]
+        kor = int(input("국어 성적을 입력하세요."))
+        eng = int(input("영어 성적을 입력하세요."))
+        math = int(input("수학 성적을 입력하세요."))
+        total = kor+eng+math
+        avg = total/3
+        stu_list.append(name)
+        stu_list.append(kor)
+        stu_list.append(eng)
+        stu_list.append(math)
+        stu_list.append(total)
+        stu_list.append(avg)
+        stu_list.append[name,kor,eng,math,total,avg]
 
-    print("이름\t국어\t수학\t영어\t합계\t평균\t")
-    print("-"*50)
-    # [
-    #  ['홍길동',kor,eng,math,total,avg],
-    #  ['유관순',kor,eng,math,total,avg]
-    # ]
-    print("{}\t{}\t{}\t{}\t{}\t{:.2f}\t".format(name,kor,eng,math,total,avg))
+        print("이름\t국어\t수학\t영어\t합계\t평균\t")
+        print("-"*50)
+        # [
+        #  ['홍길동',kor,eng,math,total,avg],
+        #  ['유관순',kor,eng,math,total,avg]
+        # ]
+        print("{}\t{}\t{}\t{}\t{}\t{:.2f}\t".format(name,kor,eng,math,total,avg))
+    elif choice == 3:
+        pass
     
-
 print()
 
 # while 종료후

@@ -7,9 +7,10 @@ my_list = []  # 내가 입력한 번호
 count = 0     # 맞춘개수
 c_list = []   # 정답 리스트  # 맞춘번호 - len(c_list)
 # print(random.sample(range(1,46),6))
-lotto = random.sample(range(1,46),6)
+lotto = random.sample(range(1,46),6)     # random.sample - 중복없이 뽑아줌
 lotto.sort()  # 로또번호
 print(lotto)
+
 # 2. 6개 숫자를 입력받아 출력하시오.
 for i in range(6):
     num = int(input("숫자를 입력하세요."))
