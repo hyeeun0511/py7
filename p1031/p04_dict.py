@@ -8,7 +8,7 @@
 
 # print(stu_dic)
 
-# # k = key / v = value
+# # k = key(키) / v = value(값)
 # # 방법 1
 # for k,v in stu_dic.items():    # item() -> ('no',1)의 형태로 분리됨  # ('no',1)
 #     print("{}:{}".format(k,v))
@@ -38,6 +38,10 @@ stu_list = [
 # 3번째에 있는 kor -> 50
 stu_list[2]['kor']=50
 print(stu_list)
+
+# kor이 아닌 숫자로 2를 넣게되면 2는 없는 값이라 추가가됨.
+# stu_list[2][2]=50
+# print(stu_list)
 
 stus = {"no":3,"name":"이순신","kor":90}
 # kor -> 50으로 변경하세요.
