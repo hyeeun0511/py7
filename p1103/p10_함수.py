@@ -46,6 +46,9 @@
 
 from StuFunc import * # StuFunc.py 안에 모든 함수를 가져옴  # *:모든 . 이라는 뜻  # StuFunc파일을 따로 만들었기때문
 # from StuFunc import stu_print  # 위와 같음
+## import StuFunc
+## StuFunc.stu_print()   > 작성 가능
+
 
 stu_list = [                                                                                                  # 주소값이 저장되어있음
     [10101,'홍길동',80,80,80,240,80.0],      

@@ -33,8 +33,8 @@ def cal():
 
 
 # 맞는 개수
-print("-"*50)
 cal()
+print("-"*50)
 print("[ 로또번호 맞춘 개수 ]")
 print(counts)
 
