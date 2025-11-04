@@ -16,6 +16,7 @@
 #     프로그래밍
 
 
+
 # 클래스 장점 : 
 # 1. 변수, 함수를 함께 묶음할수 있음  2. 여러개 변수, 여러개 함수를 객체선언으로 동시 생성가능
 # 3. 각각의 변수에 값을 제한할수 있음 - 값제한, 접근제한 가능
@@ -29,12 +30,16 @@ class Student:
     def __init__(self):    # init이라는 함수(def)
         pass
     
+    # 함수
+    def print(self):   
+        pass
+    
 # 변수 = class명 : 객체선언 - class공간을 만들어줌.        
-s = Student    # 변수 3개 -hour,minute,second        # class 밖에있어야 객체선언 가능함
+s = Student()    # 변수 3개 -hour,minute,second        # class 밖에있어야 객체선언 가능함
 
 
 
-s = Student     # 객체선언  # Student라는 공간을 s에 만들어줌   # class라는 방이 생겨 안에 변수,함수가 있어 그것들을 던져줌
+s = Student()     # 객체선언  # Student라는 공간을 s에 만들어줌   # class라는 방이 생겨 안에 변수,함수가 있어 그것들을 던져줌
 # s.a = 1     
 # s.b = 2      
 # s.c = 3      
@@ -44,7 +49,7 @@ s = Student     # 객체선언  # Student라는 공간을 s에 만들어줌   # 
 ## print(s.hour,s.minute,s.second)   # 변수읽어오기 : 참조변수.변수명 검색
 
 
-s2 = Student     # 객체선언   # s와 s2는 연관관계가 없음. 저런 다른 방이 만들어짐       # s와 s2의 변수가 같다고해서 값이 같은건 아님
+s2 = Student()     # 객체선언   # s와 s2는 연관관계가 없음. 저런 다른 방이 만들어짐       # s와 s2의 변수가 같다고해서 값이 같은건 아님
 # s2.a = 1
 # s2.b = 2
 # s2.c = 3
