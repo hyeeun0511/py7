@@ -13,8 +13,6 @@ titles = ['번호','이름','국어','영어','수학','합계','평균','등수
 stu_list = [
     {'stuno':10101,'name':'홍길동','kor':80,'eng':80,'math':80,\
         'total':240,'avg':80.00,'rank':0},    # 값의 형태를 찾기 쉽게
-    {'stuno':10101,'name':'홍길동','kor':80,'eng':80,'math':80,\
-        'total':240,'avg':80.00,'rank':0},
     {'stuno':10102,'name':'유관순','kor':90,'eng':90,'math':90,\
         'total':280,'avg':90.00,'rank':0},
     {'stuno':10103,'name':'이순신','kor':100,'eng':100,'math':100,\
